@@ -1,0 +1,9 @@
+Scout.js is a very simple Geolocation plugin for jQuery.
+
+Simply call $.scout.get() to get the user's location.
+
+Example:
+
+$.scout.get(function(coords){
+alert(coords.latitude + ", " + coords.longitude); 
+}); 
