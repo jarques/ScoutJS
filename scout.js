@@ -6,7 +6,7 @@
 	$.scout = {        
 		get:function(coords){
 			if (navigator.geolocation) {
-			    return navigator.geolocation.getCurrentPosition(
+			    navigator.geolocation.getCurrentPosition(
 			        function(location) {coords(location.coords)},
 			        function(){return false;}
 			    );
